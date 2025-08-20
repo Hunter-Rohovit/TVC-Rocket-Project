@@ -1,0 +1,211 @@
+Removed Pin From Net: NetName=GND Pin=*-1
+Removed Pin From Net: NetName=5V Pin=*-6
+Change Component Designator: OldDesignator=Battery NewDesignator=J?
+Change Component Description : Designator=J? Old Description=Terminal block, EURO BLOCK, slotted screw, 5.00mm pitch, blue, 2 position New Description=Terminal block, EURO BLOCK, slotted screw, 5.00mm pitch, blue, 2 position | Adam Tech EBBA-02-C-SS-BU
+Change Component Description : Designator=Igniter CH1 Old Description=Terminal block, EURO BLOCK, slotted screw, 5.00mm pitch, blue, 2 position New Description=Terminal block, EURO BLOCK, slotted screw, 5.00mm pitch, blue, 2 position | Adam Tech EBBA-02-C-SS-BU
+Change Component Description : Designator=Igniter CH2 Old Description=Terminal block, EURO BLOCK, slotted screw, 5.00mm pitch, blue, 2 position New Description=Terminal block, EURO BLOCK, slotted screw, 5.00mm pitch, blue, 2 position | Adam Tech EBBA-02-C-SS-BU
+Change Component Description : Designator=Igniter CH3 Old Description=Terminal block, EURO BLOCK, slotted screw, 5.00mm pitch, blue, 2 position New Description=Terminal block, EURO BLOCK, slotted screw, 5.00mm pitch, blue, 2 position | Adam Tech EBBA-02-C-SS-BU
+Added Component: Designator=CH1_Indicator(INDPR60-254-520X380X650)
+Add component (AddParameter): Name = "Case/Package"; Value = "Radial"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Colour"; Value = "Red"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet URL"; Value = "https://datasheet.ciiva.com/15117/getdatasheetpartid-187746-15117985.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Version"; Value = "Dec-03"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Forward Current"; Value = "20mA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Forward Voltage"; Value = "2V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Illumination Colour"; Value = "Red"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lens Style"; Value = "Dome"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Luminous Intensity"; Value = "12.6mcd"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Lite-On"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer URL"; Value = "http://www.us.liteon.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "100°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Power Dissipation"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-55°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "TH"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Nominal Vf"; Value = "2V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Description"; Value = "2-Pin Through Hole Device, Dia 3.8 mm, Pitch 2.54 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Quantity"; Value = "1000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Reference"; Value = "LTL-1CHE"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Bulk"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS Compliant"; Value = "True"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Viewing Angle"; Value = "60degrees"; VariantName = "[No Variations]"
+Added Component: Designator=CH2_Indicator(INDPR60-254-520X380X650)
+Add component (AddParameter): Name = "Case/Package"; Value = "Radial"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Colour"; Value = "Red"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet URL"; Value = "https://datasheet.ciiva.com/15117/getdatasheetpartid-187746-15117985.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Version"; Value = "Dec-03"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Forward Current"; Value = "20mA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Forward Voltage"; Value = "2V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Illumination Colour"; Value = "Red"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lens Style"; Value = "Dome"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Luminous Intensity"; Value = "12.6mcd"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Lite-On"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer URL"; Value = "http://www.us.liteon.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "100°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Power Dissipation"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-55°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "TH"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Nominal Vf"; Value = "2V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Description"; Value = "2-Pin Through Hole Device, Dia 3.8 mm, Pitch 2.54 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Quantity"; Value = "1000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Reference"; Value = "LTL-1CHE"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Bulk"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS Compliant"; Value = "True"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Viewing Angle"; Value = "60degrees"; VariantName = "[No Variations]"
+Added Component: Designator=CH3_Indicator(INDPR60-254-520X380X650)
+Add component (AddParameter): Name = "Case/Package"; Value = "Radial"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Colour"; Value = "Red"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet URL"; Value = "https://datasheet.ciiva.com/15117/getdatasheetpartid-187746-15117985.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Version"; Value = "Dec-03"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Forward Current"; Value = "20mA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Forward Voltage"; Value = "2V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Illumination Colour"; Value = "Red"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lens Style"; Value = "Dome"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Luminous Intensity"; Value = "12.6mcd"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Lite-On"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer URL"; Value = "http://www.us.liteon.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "100°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Power Dissipation"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-55°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "TH"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Nominal Vf"; Value = "2V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Description"; Value = "2-Pin Through Hole Device, Dia 3.8 mm, Pitch 2.54 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Quantity"; Value = "1000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Reference"; Value = "LTL-1CHE"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Bulk"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS Compliant"; Value = "True"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Viewing Angle"; Value = "60degrees"; VariantName = "[No Variations]"
+Added Component: Designator=R13(RESA60-630X240)
+Add component (AddParameter): Name = "Case/Package"; Value = "Axial"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Composition"; Value = "CarbonFilm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet URL"; Value = "http://www.yageo.com/documents/recent/Yageo%20LR_MFR_2013.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Version"; Value = "Apr-13"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Yageo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer URL"; Value = "http://www.yageo.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "155°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-55°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "TH"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Description"; Value = "2-Pin Axial Lead, Dia 2.4 mm, Body Length 6.3 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Quantity"; Value = "200"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Reference"; Value = "MFR-25"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Bulk"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power"; Value = "250mW"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS Compliant"; Value = "True"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "1k"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = "250V"; VariantName = "[No Variations]"
+Added Component: Designator=R14(RESA60-630X240)
+Add component (AddParameter): Name = "Case/Package"; Value = "Axial"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Composition"; Value = "CarbonFilm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet URL"; Value = "http://www.yageo.com/documents/recent/Yageo%20LR_MFR_2013.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Version"; Value = "Apr-13"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Yageo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer URL"; Value = "http://www.yageo.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "155°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-55°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "TH"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Description"; Value = "2-Pin Axial Lead, Dia 2.4 mm, Body Length 6.3 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Quantity"; Value = "200"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Reference"; Value = "MFR-25"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Bulk"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power"; Value = "250mW"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS Compliant"; Value = "True"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "1k"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = "250V"; VariantName = "[No Variations]"
+Added Component: Designator=R15(RESA60-630X240)
+Add component (AddParameter): Name = "Case/Package"; Value = "Axial"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Composition"; Value = "CarbonFilm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet URL"; Value = "http://www.yageo.com/documents/recent/Yageo%20LR_MFR_2013.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Version"; Value = "Apr-13"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Yageo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer URL"; Value = "http://www.yageo.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "155°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-55°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "TH"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Description"; Value = "2-Pin Axial Lead, Dia 2.4 mm, Body Length 6.3 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Quantity"; Value = "200"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Reference"; Value = "MFR-25"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Bulk"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power"; Value = "250mW"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS Compliant"; Value = "True"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "1k"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = "250V"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=*-2
+Added Pin To Net: NetName=14.7V Pin=R13-1
+Added Pin To Net: NetName=14.7V Pin=R14-1
+Added Pin To Net: NetName=14.7V Pin=R15-1
+Change Net Name : Old Net Name=3V3 New Net Name=Net*_1
+Change Net Name : Old Net Name=5V New Net Name=Net1_2
+Change Net Name : Old Net Name=14.7V New Net Name=Net*_3
+Change Net Name : Old Net Name=CS New Net Name=Net*_8
+Change Net Name : Old Net Name=GND New Net Name=Net1_1
+Change Net Name : Old Net Name=LED1_B New Net Name=NetD?_4
+Change Net Name : Old Net Name=LED1_G New Net Name=NetD?_3
+Change Net Name : Old Net Name=LED1_R New Net Name=NetD?_1
+Change Net Name : Old Net Name=LED2_B New Net Name=NetD?_4
+Change Net Name : Old Net Name=LED2_G New Net Name=NetD?_3
+Change Net Name : Old Net Name=LED2_R New Net Name=NetD?_1
+Change Net Name : Old Net Name=M1_Gate New Net Name=NetMOSFET1_1
+Change Net Name : Old Net Name=M2_Gate New Net Name=NetMOSFET2_1
+Change Net Name : Old Net Name=M3_Gate New Net Name=NetMOSFET3_1
+Change Net Name : Old Net Name=MISO New Net Name=Net*_6
+Change Net Name : Old Net Name=MOSI New Net Name=Net*_7
+Change Net Name : Old Net Name=Pin1 New Net Name=NetR4_2
+Change Net Name : Old Net Name=Pin2 New Net Name=NetR5_2
+Change Net Name : Old Net Name=Pin3 New Net Name=NetR6_2
+Change Net Name : Old Net Name=Pin4 New Net Name=Net1_3
+Change Net Name : Old Net Name=Pin5 New Net Name=Net2_3
+Change Net Name : Old Net Name=Pin6 New Net Name=Net3_3
+Change Net Name : Old Net Name=Pin8 New Net Name=Net*_4
+Change Net Name : Old Net Name=Pin9 New Net Name=Net*_9
+Change Net Name : Old Net Name=Pin14 New Net Name=Net4_3
+Change Net Name : Old Net Name=Pin15 New Net Name=Net5_3
+Change Net Name : Old Net Name=Pin17 New Net Name=NetR7_2
+Change Net Name : Old Net Name=Pin18 New Net Name=Net6_3
+Change Net Name : Old Net Name=Pin19 New Net Name=NetR8_2
+Change Net Name : Old Net Name=Pin20 New Net Name=NetR9_2
+Change Net Name : Old Net Name=Pin21 New Net Name=NetR10_2
+Change Net Name : Old Net Name=Pin22 New Net Name=NetR11_2
+Change Net Name : Old Net Name=Pin23 New Net Name=NetR12_2
+Change Net Name : Old Net Name=SCK New Net Name=Net*_5
+Added Pin To Net: NetName=NetCH1_Indicator_1 Pin=CH1_Indicator-1
+Added Pin To Net: NetName=NetCH1_Indicator_1 Pin=Igniter CH1-2
+Added Pin To Net: NetName=NetCH1_Indicator_1 Pin=MOSFET1-2
+Added Net: Name=NetCH1_Indicator_1
+Added Pin To Net: NetName=NetCH1_Indicator_2 Pin=CH1_Indicator-2
+Added Pin To Net: NetName=NetCH1_Indicator_2 Pin=R13-2
+Added Net: Name=NetCH1_Indicator_2
+Added Pin To Net: NetName=NetCH2_Indicator_1 Pin=CH2_Indicator-1
+Added Pin To Net: NetName=NetCH2_Indicator_1 Pin=Igniter CH2-2
+Added Pin To Net: NetName=NetCH2_Indicator_1 Pin=MOSFET2-2
+Added Net: Name=NetCH2_Indicator_1
+Added Pin To Net: NetName=NetCH2_Indicator_2 Pin=CH2_Indicator-2
+Added Pin To Net: NetName=NetCH2_Indicator_2 Pin=R14-2
+Added Net: Name=NetCH2_Indicator_2
+Added Pin To Net: NetName=NetCH3_Indicator_1 Pin=CH3_Indicator-1
+Added Pin To Net: NetName=NetCH3_Indicator_1 Pin=Igniter CH3-2
+Added Pin To Net: NetName=NetCH3_Indicator_1 Pin=MOSFET3-2
+Added Net: Name=NetCH3_Indicator_1
+Added Pin To Net: NetName=NetCH3_Indicator_2 Pin=CH3_Indicator-2
+Added Pin To Net: NetName=NetCH3_Indicator_2 Pin=R15-2
+Added Net: Name=NetCH3_Indicator_2
+Added Member To Class: ClassName=LaunchPadComputerSchematic Member=Component * Pololu 5V_5A Reg
+Added Member To Class: ClassName=LaunchPadComputerSchematic Member=Component * RFM95W
+Added Member To Class: ClassName=LaunchPadComputerSchematic Member=Component CH1_Indicator LTL-1CHE
+Added Member To Class: ClassName=LaunchPadComputerSchematic Member=Component CH2_Indicator LTL-1CHE
+Added Member To Class: ClassName=LaunchPadComputerSchematic Member=Component CH3_Indicator LTL-1CHE
+Added Member To Class: ClassName=LaunchPadComputerSchematic Member=Component D? RGB LED
+Added Member To Class: ClassName=LaunchPadComputerSchematic Member=Component MOSFET1 IRLZ44NPbF
+Added Member To Class: ClassName=LaunchPadComputerSchematic Member=Component R13 MFR-25FBF52-1K
+Added Member To Class: ClassName=LaunchPadComputerSchematic Member=Component R14 MFR-25FBF52-1K
+Added Member To Class: ClassName=LaunchPadComputerSchematic Member=Component R15 MFR-25FBF52-1K

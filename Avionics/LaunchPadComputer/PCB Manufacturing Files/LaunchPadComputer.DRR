@@ -1,0 +1,24 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: LaunchPadComputer.PcbDoc   7/11/2025  8:47:16 AM
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII RoundHoles File : LaunchPadComputer.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      0.711mm (28mil)                                           Round             4         PTH        13.63mm (0.54inch)
+T2      0.85mm (33mil)                                            Round             30        PTH        291.29mm (11.47inch)
+T3      0.9mm (35mil)                                             Round             6         PTH        41.16mm (1.62inch)
+T4      1.016mm (40mil)                                           Round             54        PTH        403.12mm (15.87inch)
+T5      1.02mm (40mil)                                            Round             28        PTH        106.68mm (4.20inch)
+T6      1.199mm (47mil)                                           Round             12        PTH        106.83mm (4.21inch)
+T7      1.2mm (47mil)                                             Round             9         PTH        34.42mm (1.36inch)
+T8      1.206mm (47mil)                                           Round             6         PTH        104.88mm (4.13inch)
+T9      1.614mm (64mil)                                           Round             8         PTH        98.16mm (3.86inch)
+T10     2.184mm (86mil)                                           Round             3         PTH        42.16mm (1.66inch)
+T11     2.54mm (100mil)                                           Round             4         PTH        327.81mm (12.91inch)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              164
+
+Total Processing Time (hh:mm:ss) : 00:00:00

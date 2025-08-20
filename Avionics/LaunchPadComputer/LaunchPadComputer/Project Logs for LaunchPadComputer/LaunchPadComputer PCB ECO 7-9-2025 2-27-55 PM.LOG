@@ -1,0 +1,113 @@
+Change Component Designator: OldDesignator=MOSFET? NewDesignator=MOSFET1
+Change Component Designator: OldDesignator=MOSFET? NewDesignator=MOSFET2
+Change Component Designator: OldDesignator=MOSFET? NewDesignator=MOSFET3
+Added Component: Designator=C1(Capacitor)
+Add component (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/478CKS010M/Illinois+Capacitor/view-part/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Illinois Capacitor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "478CKS010M"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "Radial Illinois Capacitor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/478CKS010M/Illinois+Capacitor/view-part/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=C2(Capacitor)
+Add component (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/478CKS010M/Illinois+Capacitor/view-part/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Illinois Capacitor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "478CKS010M"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "Radial Illinois Capacitor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/478CKS010M/Illinois+Capacitor/view-part/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=C3(Capacitor)
+Add component (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/478CKS010M/Illinois+Capacitor/view-part/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Illinois Capacitor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "478CKS010M"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "Radial Illinois Capacitor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/478CKS010M/Illinois+Capacitor/view-part/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=C4(Capacitor)
+Add component (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/478CKS010M/Illinois+Capacitor/view-part/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Illinois Capacitor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "478CKS010M"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "Radial Illinois Capacitor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/478CKS010M/Illinois+Capacitor/view-part/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=C5(Capacitor)
+Add component (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/478CKS010M/Illinois+Capacitor/view-part/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Illinois Capacitor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "478CKS010M"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "Radial Illinois Capacitor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/478CKS010M/Illinois+Capacitor/view-part/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=C6(Capacitor)
+Add component (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/478CKS010M/Illinois+Capacitor/view-part/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Illinois Capacitor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "478CKS010M"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "Radial Illinois Capacitor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/478CKS010M/Illinois+Capacitor/view-part/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=C7(Capacitor)
+Add component (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/478CKS010M/Illinois+Capacitor/view-part/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Illinois Capacitor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "478CKS010M"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "Radial Illinois Capacitor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/478CKS010M/Illinois+Capacitor/view-part/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=C8(Capacitor)
+Add component (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/478CKS010M/Illinois+Capacitor/view-part/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Illinois Capacitor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "478CKS010M"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "Radial Illinois Capacitor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/478CKS010M/Illinois+Capacitor/view-part/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=C9(Capacitor)
+Add component (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/478CKS010M/Illinois+Capacitor/view-part/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Illinois Capacitor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "478CKS010M"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "Radial Illinois Capacitor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/478CKS010M/Illinois+Capacitor/view-part/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetC1_1 Pin=C1-1
+Added Pin To Net: NetName=Net1_1 Pin=C1-2
+Added Pin To Net: NetName=NetC1_1 Pin=C2-1
+Added Pin To Net: NetName=Net1_1 Pin=C2-2
+Added Pin To Net: NetName=NetC1_1 Pin=C3-1
+Added Pin To Net: NetName=Net1_1 Pin=C3-2
+Added Pin To Net: NetName=Net1_2 Pin=C4-1
+Added Pin To Net: NetName=Net1_1 Pin=C4-2
+Added Pin To Net: NetName=Net1_2 Pin=C5-1
+Added Pin To Net: NetName=Net1_1 Pin=C5-2
+Added Pin To Net: NetName=Net1_2 Pin=C6-1
+Added Pin To Net: NetName=Net1_1 Pin=C6-2
+Added Pin To Net: NetName=Net1_2 Pin=C7-1
+Added Pin To Net: NetName=Net1_1 Pin=C7-2
+Added Pin To Net: NetName=Net1_2 Pin=C8-1
+Added Pin To Net: NetName=Net1_1 Pin=C8-2
+Added Pin To Net: NetName=Net1_2 Pin=C9-1
+Added Pin To Net: NetName=Net1_1 Pin=C9-2
+Change Net Name : Old Net Name=NetMOSFET?_1 New Net Name=NetMOSFET1_1
+Add Net: Net with name "NetD?_1" already exists
+Add Net: Net with name "NetD?_3" already exists
+Add Net: Net with name "NetD?_4" already exists
+Added Pin To Net: NetName=NetMOSFET2_1 Pin=MOSFET2-1
+Added Pin To Net: NetName=NetMOSFET2_1 Pin=R2-1
+Added Pin To Net: NetName=NetMOSFET2_1 Pin=R5-1
+Added Net: Name=NetMOSFET2_1
+Added Pin To Net: NetName=NetMOSFET3_1 Pin=MOSFET3-1
+Added Pin To Net: NetName=NetMOSFET3_1 Pin=R3-1
+Added Pin To Net: NetName=NetMOSFET3_1 Pin=R6-1
+Added Net: Name=NetMOSFET3_1
+Added Member To Class: ClassName=LaunchPadComputerSchematic Member=Component * Buzzer
+Added Member To Class: ClassName=LaunchPadComputerSchematic Member=Component * RFM95W
+Added Member To Class: ClassName=LaunchPadComputerSchematic Member=Component * Pololu 5V_5A Reg
+Added Member To Class: ClassName=LaunchPadComputerSchematic Member=Component 5 MG90S5
+Added Member To Class: ClassName=LaunchPadComputerSchematic Member=Component C1 478CKS010M
+Added Member To Class: ClassName=LaunchPadComputerSchematic Member=Component C2 478CKS010M
+Added Member To Class: ClassName=LaunchPadComputerSchematic Member=Component C3 478CKS010M
+Added Member To Class: ClassName=LaunchPadComputerSchematic Member=Component C4 478CKS010M
+Added Member To Class: ClassName=LaunchPadComputerSchematic Member=Component C5 478CKS010M
+Added Member To Class: ClassName=LaunchPadComputerSchematic Member=Component C6 478CKS010M
+Added Member To Class: ClassName=LaunchPadComputerSchematic Member=Component C7 478CKS010M
+Added Member To Class: ClassName=LaunchPadComputerSchematic Member=Component C8 478CKS010M
+Added Member To Class: ClassName=LaunchPadComputerSchematic Member=Component C9 478CKS010M
+Added Member To Class: ClassName=LaunchPadComputerSchematic Member=Component D? RGB LED
+Added Member To Class: ClassName=LaunchPadComputerSchematic Member=Component J? Term Blk 2Pos 5mm
+Added Member To Class: ClassName=LaunchPadComputerSchematic Member=Component MOSFET2 IRLZ44NPbF
+Added Member To Class: ClassName=LaunchPadComputerSchematic Member=Component MOSFET3 IRLZ44NPbF

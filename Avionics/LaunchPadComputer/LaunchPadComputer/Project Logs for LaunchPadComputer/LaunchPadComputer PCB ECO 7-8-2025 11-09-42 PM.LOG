@@ -1,0 +1,29 @@
+Added Component: Designator=*(MG90S)
+Add component (AddParameter): Name = "Design Item ID"; Value = "MG90S"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Source"; Value = "MG90S.SchLib"; VariantName = "[No Variations]"
+Added Component: Designator=*(Pololu 5V_5A Reg)
+Add component (AddParameter): Name = "Design Item ID"; Value = "Pololu 5V_5A Reg"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Source"; Value = "Pololu 5V_5A Reg.SchLib"; VariantName = "[No Variations]"
+Added Component: Designator=*(MG90S)
+Add component (AddParameter): Name = "Design Item ID"; Value = "MG90S"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Source"; Value = "MG90S.SchLib"; VariantName = "[No Variations]"
+Added Component: Designator=*(MG90S)
+Add component (AddParameter): Name = "Design Item ID"; Value = "MG90S"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Source"; Value = "MG90S.SchLib"; VariantName = "[No Variations]"
+Added Component: Designator=*(RFM95W)
+Add component (AddParameter): Name = "Design Item ID"; Value = "RFM95W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Source"; Value = "RFM95W.SchLib"; VariantName = "[No Variations]"
+Added Component: Designator=*(MG90S)
+Add component (AddParameter): Name = "Design Item ID"; Value = "MG90S"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Source"; Value = "MG90S.SchLib"; VariantName = "[No Variations]"
+Add component: Footprint Not Found Term Blk 2Pos 5mm
+Added Component: Designator=U?(Teensy 4.0)
+Add component (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/DEV-15583/SparkFun/view-part/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Design Item ID"; Value = "Teensy 4.0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "SparkFun Electronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "DEV-15583"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/DEV-15583/SparkFun/view-part/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Source"; Value = "Teensy 4.0.SchLib"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Class: Name=LaunchPadComputerSchematic
