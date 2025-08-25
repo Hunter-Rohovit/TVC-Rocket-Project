@@ -16,7 +16,6 @@ function xdot = rocket6dof(t,x,u,vehicle, env, aeroData, thrustTime, thrustData)
     % Compute Quaternion derivative from angular velocity
     q_dot = Omega*q;
 
-
     %create rotation matrices for transformation between vehicle 
     %and inertial reference frames 
     R_body_inertial = quat2rotm(q');
@@ -32,6 +31,7 @@ function xdot = rocket6dof(t,x,u,vehicle, env, aeroData, thrustTime, thrustData)
         v_body_dir = v_body / v_body_mag;
     end
     display(v_body);
+    
     %compute total angle of attack (includes both pitch and side slip
     %angles)
     cos_theta = dot([1;0;0], v_body) / norm(v_body);
@@ -47,20 +47,6 @@ function xdot = rocket6dof(t,x,u,vehicle, env, aeroData, thrustTime, thrustData)
 
     %get mass & aerodynamic properties for vehicle
     [mass, CG, I, Cd_A, Cl_A, Cy_A, ~, Cm_A, CP, C_damp] = getVehicleProperties(t, alpha, beta, alpha_total, vehicle, aeroData); 
-    
-    display(alpha_total);
-    display(alpha);
-    display(mass);
-    display(CG);
-    display(I);
-    display(Cd_A);
-    display(Cl_A);
-    display(beta);
-    display(Cy_A);
-    display(Cm_A);
-    display(CP);
-    display(C_damp);
-
 
     %Compute Aerodynamic Forces
     q = 0.5*env.rho*v_body_mag^2; %dynamic pressure
@@ -98,16 +84,6 @@ function xdot = rocket6dof(t,x,u,vehicle, env, aeroData, thrustTime, thrustData)
 
     F_slip = q * Cy_A * slip_dir;
 
-    display(F_drag);
-    display('F_Drag_Inertial');
-    display(R_body_inertial*F_drag);
-    display(F_lift);
-    display('F_lift_Inertial');
-    display(R_body_inertial*F_lift);
-    display(F_slip);
-    display('F_Slip_Inertial');
-    display(R_body_inertial*F_slip);
-
     %Summing the forces
     F_aero_body = F_drag + F_lift + F_slip; 
 
@@ -120,30 +96,15 @@ function xdot = rocket6dof(t,x,u,vehicle, env, aeroData, thrustTime, thrustData)
     F_thrust = thrust*thrust_dir_body;
     F_thrust_inertial = R_body_inertial * F_thrust;
 
-    display('Gimbal Angles: (pitch,yaw)');
-    display(u(1));
-    display(u(2));
-    display(F_thrust);
-    display(F_thrust_inertial);
-
     %Gravity Force
     F_gravity = [0;0;-env.g*mass];
 
     Forces_Body_Sum = F_aero_body + F_thrust; %Sum of forces in body frame of reference
     Forces_Inertial_Sum = R_body_inertial*Forces_Body_Sum + F_gravity; %Convert to inertial reference frame
 
-    display(Forces_Body_Sum);
-    display(Forces_Inertial_Sum);
-
     %Compute Aerodynamic Moment
-    display(CG);
-    display(CP);
     r_aero = [CG-CP;0;0]; %lever arm goes from CG to CP (+bodyX direction)
     M_aero_body = cross(r_aero, F_aero_body);
-
-    display(r_aero);
-    display(F_aero_body);
-    display(M_aero_body);
 
     %calculate the moments due to thrust vectoring
     %Lever arm is along the longitudinal axis of the rocket
@@ -157,7 +118,6 @@ function xdot = rocket6dof(t,x,u,vehicle, env, aeroData, thrustTime, thrustData)
     %compute Aerodynamic Damping Moment
     C2A = C_damp*v_body_mag;
     M_damp = [0;-C2A*omega(2);-C2A*omega(3)];
-    display(M_damp);
 
     %Sum of moments
     Moments_Body_Sum = M_aero_body + M_thrust_body +M_damp;
@@ -174,95 +134,4 @@ function xdot = rocket6dof(t,x,u,vehicle, env, aeroData, thrustTime, thrustData)
             vel(:);
             translational_accel(:)];
 
-    disp("Wind:"); disp(env.wind);
-    disp("vel_rel_inertial"); disp(v_rel_inertial);
-    disp("alpha (deg):"); disp(alpha);
-    disp("F_drag_inertial:"); disp(R_body_inertial*F_drag);
-    disp("M_aero:"); disp(M_aero_body);
-
-
-
-    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
-% Visualiztion of Vectors in a 3D space
-
-% Given/known quantities at current timestep
-q = x(1:4);  % [phi, theta, psi]
-pos = x(8:10);  % position of rocket in inertial frame    
-origin = pos(:);  % rocket location in inertial space
-
-% Rocket body axes in body frame
-X_b = [1; 0; 0];  % forward
-Y_b = [0; 1; 0];  % right
-Z_b = [0; 0; 1];  % down (typical for body frame)
-
-% Transform to inertial frame
-R = quat2rotm(q');
-X_i = R * X_b;
-Y_i = R * Y_b;
-Z_i = R * Z_b;
-
-% Transform aerodynamic force vectors to inertial
-F_drag_i  = R * F_drag;
-F_lift_i  = R * F_lift;
-F_slip_i  = R * F_slip;
-
-% Add thrust and gravity (already in inertial frame)
-F_thrust_i = F_thrust_inertial;
-F_gravity_i = [0; 0; -mass * env.g];
-
-% Normalize for plotting
-scale = 0.2;
-F_drag_i_plot    = scale * F_drag_i    / norm(F_drag_i);
-F_lift_i_plot    = scale * F_lift_i    / norm(F_lift_i);
-F_slip_i_plot    = scale * F_slip_i    / (norm(F_slip_i) + 1e-6);
-F_thrust_i_plot  = scale * F_thrust_i  / (norm(F_thrust_i) + 1e-6);
-F_gravity_i_plot = scale * F_gravity_i / norm(F_gravity_i);
-
-% Plotting
-figure;
-hold on;
-axis equal;
-grid on;
-xlabel('X');
-ylabel('Y');
-zlabel('Z');
-title('Rocket Force Vectors and Body Axes');
-
-% Inertial frame axes
-quiver3(origin(1), origin(2), origin(3), 1, 0, 0, 0.3, 'r', 'LineWidth', 1.5); % X
-quiver3(origin(1), origin(2), origin(3), 0, 1, 0, 0.3, 'g', 'LineWidth', 1.5); % Y
-quiver3(origin(1), origin(2), origin(3), 0, 0, 1, 0.3, 'b', 'LineWidth', 1.5); % Z
-
-% Body frame axes
-quiver3(origin(1), origin(2), origin(3), X_i(1), X_i(2), X_i(3), 0.5, 'k',   'LineWidth', 2);
-quiver3(origin(1), origin(2), origin(3), Y_i(1), Y_i(2), Y_i(3), 0.5, 'k--', 'LineWidth', 2);
-quiver3(origin(1), origin(2), origin(3), Z_i(1), Z_i(2), Z_i(3), 0.5, 'k:',  'LineWidth', 2);
-
-% Forces
-quiver3(origin(1), origin(2), origin(3), F_drag_i_plot(1),    F_drag_i_plot(2),    F_drag_i_plot(3),    1, 'c',  'LineWidth', 2);
-quiver3(origin(1), origin(2), origin(3), F_lift_i_plot(1),    F_lift_i_plot(2),    F_lift_i_plot(3),    1, 'c--',  'LineWidth', 2);
-quiver3(origin(1), origin(2), origin(3), F_slip_i_plot(1),    F_slip_i_plot(2),    F_slip_i_plot(3),    1, 'c:',  'LineWidth', 2);
-quiver3(origin(1), origin(2), origin(3), F_thrust_i_plot(1),  F_thrust_i_plot(2),  F_thrust_i_plot(3),  1, 'm',  'LineWidth', 2);
-%quiver3(origin(1), origin(2), origin(3), F_gravity_i_plot(1), F_gravity_i_plot(2), F_gravity_i_plot(3), 1, 'y',  'LineWidth', 2);
-
-%%%Now do Moments
-M_aero_inertial  = R_body_inertial * M_aero_body;
-M_thrust_inertial = R_body_inertial * M_thrust_body;
-
-%Normalize for plotting
-M_scale = 0.2;
-M_aero_plot   = M_scale * M_aero_inertial   / (norm(M_aero_inertial)   + 1e-6);
-M_thrust_plot = M_scale * M_thrust_inertial / (norm(M_thrust_inertial) + 1e-6);
-
-% Plot Moment vectors
-quiver3(origin(1), origin(2), origin(3), M_thrust_plot(1), M_thrust_plot(2), M_thrust_plot(3), 1, 'm--', 'LineWidth', 2);
-quiver3(origin(1), origin(2), origin(3), M_aero_plot(1),   M_aero_plot(2),   M_aero_plot(3),   1, 'c', 'LineWidth', 2); 
-
-legend({'Inertial X','Inertial Y','Inertial Z', ...
-        'Body X','Body Y','Body Z', ...
-        'Drag','Lift','Slip','Thrust', ...
-        'Thrust Moment','Aero Moment'});
-
-view(3);
-display(M_aero_plot);
 end
