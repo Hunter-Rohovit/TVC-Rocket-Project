@@ -93,8 +93,7 @@ Boundary Conditions
          Condition                       Value        
          ------------------------------------------
          Velocity Specification Method   Components   
-         X-Velocity [m/s]                -18.47       
-         Z-Velocity [m/s]                35.48        
+         Y-Velocity [m/s]                -40          
 
       outlet
 
