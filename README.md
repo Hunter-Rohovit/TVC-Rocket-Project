@@ -31,7 +31,7 @@ The goal of this project was to design, simulate, and build a finless rocket cap
 - Designed a custom Launch Pad with servo-driven quick-release Clamps, ignition circuit, and a custom Launch Pad PCB capable of controlling systems and transceiving radio commands.
 - Computationally estimated and experimentally measured the rocket's Center of Gravity and Moment of Inertia about its lateral axes.
 - Experimentally measured and analyzed servo motor hysteresis, latency, and response lag to accurately model gimbal mount dynamics.
-- Formulated a non linear state-space representation of the rocket's rotational and translational dynamics in MATLAB.
+- Formulated a nonlinear state-space representation of the rocket's rotational and translational dynamics in MATLAB.
 - Built a full 6DoF state-space model of the rocket in MATLAB, integrating aerodynamic forces & moments, thrust vectoring, and environmental factors.
 - Used Ansys Fluent's Computational Fluid Dynamics to determine lift and drag coefficients, aerodynamic moments, and center of pressure at various angles of attack to be used in 6DoF Simulation.
 - Developed the structure of a Simulink Model integrating the 6DoF MATLAB function, a cascading PID Loop, and servo dynamics for accurate simulation and tuning of controller.
@@ -80,7 +80,7 @@ The Launch Pad Computer consisted of a Teensy 4.0 Microcontroller, 5V Pololu Buc
 </p>
 
 ## Gimbal Mount
-Having a robust gimbal mount that can effectively vector thrust is key to the success of this project, which is why I spent an entire summer dedicated just to it. The gimbal mount is controlled by two servo motors each connected to linkage mechanisms. There are two "loops". The inner loop is connected to the rocket motor case at a pivot, allowing the inner servo motor to rotate the motor case back in forth. The entire inner loop is connected to the outer loop by a pivot. The servo motor on the outer loop moves the inner loop back and forth in a direction perpendicular to the inner servo to allow vectoring in two directions. This mount has maximum and minimum vector angles of 4.5 degrees in both the pitch and yaw directions. 
+Having a robust gimbal mount that can effectively vector thrust is key to the success of this project, which is why I spent an entire summer dedicated just to it. The gimbal mount is controlled by two servo motors each connected to linkage mechanisms. There are two "loops". The inner loop is connected to the rocket motor case at a pivot, allowing the inner servo motor to rotate the motor case back and forth. The entire inner loop is connected to the outer loop by a pivot. The servo motor on the outer loop moves the inner loop back and forth in a direction perpendicular to the inner servo to allow vectoring in two directions. This mount has maximum and minimum vector angles of 4.5 degrees in both the pitch and yaw directions. 
 
 While the final design of the gimbal mount is the same as the first prototypes in terms of how it vectors the thrust, these were some key changes made to improve the overall design:
 - Shortened distance between control horn pivot and linkage connection.
